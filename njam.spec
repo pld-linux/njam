@@ -6,11 +6,13 @@ Summary:	Fast paced multiplayer pacman clone
 Summary(pl):	Sieciowy klon pacmana o szybkim tempie
 Name:		njam
 Version:	1.25
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/njam/%{name}-%{version}-src.tar.gz
 # Source0-md5:	231fda022d309e1ef4a0d993ca693462
+Source1:	%{name}.desktop
+Source2:	%{name}.xpm
 URL:		http://njam.sourceforge.net/
 BuildRequires:	SDL-devel
 BuildRequires:	SDL_image-devel
@@ -43,9 +45,13 @@ staraj±c siê przy okazji unikaæ ¶cigaj±cych ciê duchów.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
+install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -55,3 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
+%{_desktopdir}/%{name}.desktop
+%{_pixmapsdir}/%{name}.xpm
