@@ -29,8 +29,8 @@ ghosts who chase you.
 
 %description -l pl
 Njam jest posiadaj±c± szybkie tempo gr± z rodzaju pac-man. W tej
-zrêczno¶ciówce poruszasz siê po labiryncie zbieraj±c ciastka i bonusy,
-staraj±c siê przy okazji unikaæ ¶cigaj±cych ciê duchów.
+zrêczno¶ciówce gracz porusza siê po labiryncie zbieraj±c ciastka i
+dopalacze, staraj±c siê przy okazji unikaæ ¶cigaj±cych go duchów.
 
 %prep
 %setup -q -n %{name}-%{version}-src
