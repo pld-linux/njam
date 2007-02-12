@@ -3,7 +3,7 @@
 %bcond_without	SDL_mixer	# build without SDL_mixer
 #
 Summary:	Fast paced multiplayer pacman clone
-Summary(pl.UTF-8):   Sieciowy klon pacmana o szybkim tempie
+Summary(pl.UTF-8):	Sieciowy klon pacmana o szybkim tempie
 Name:		njam
 Version:	1.25
 Release:	2
