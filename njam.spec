@@ -3,7 +3,7 @@
 %bcond_without	SDL_mixer	# build without SDL_mixer
 #
 Summary:	Fast paced multiplayer pacman clone
-Summary(pl):	Sieciowy klon pacmana o szybkim tempie
+Summary(pl.UTF-8):   Sieciowy klon pacmana o szybkim tempie
 Name:		njam
 Version:	1.25
 Release:	2
@@ -27,10 +27,10 @@ Njam is fast-paced pac-man-like game. In this arcade you move through
 the maze eating cookies and collecting powerups while trying to avoid
 ghosts who chase you.
 
-%description -l pl
-Njam jest posiadaj±c± szybkie tempo gr± z rodzaju pac-man. W tej
-zrêczno¶ciówce gracz porusza siê po labiryncie zbieraj±c ciastka i
-dopalacze, staraj±c siê przy okazji unikaæ ¶cigaj±cych go duchów.
+%description -l pl.UTF-8
+Njam jest posiadajÄ…cÄ… szybkie tempo grÄ… z rodzaju pac-man. W tej
+zrÄ™cznoÅ›ciÃ³wce gracz porusza siÄ™ po labiryncie zbierajÄ…c ciastka i
+dopalacze, starajÄ…c siÄ™ przy okazji unikaÄ‡ Å›cigajÄ…cych go duchÃ³w.
 
 %prep
 %setup -q -n %{name}-%{version}-src
