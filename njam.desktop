@@ -2,10 +2,9 @@
 Name=Njam
 Comment=Fast paced multiplayer pacman clone
 Comment[pl]=Sieciowy klon pacmana o szybkim tempie
-Icon=njam.xpm
+Icon=njam
 Exec=njam
 Terminal=false
 Type=Application
 Categories=Game;ArcadeGame;
-Encoding=UTF-8
 # vi: encoding=utf-8
